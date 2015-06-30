@@ -233,7 +233,7 @@
             this.$container.attr('id', 'sk-' + this.$select.attr('id'));
         }
 
-        this.$container.append('<div class="selectkit-display"><span>' + this.settings.placeholder + '</span><i class="selectkit-caret"></i></div>');
+        this.$container.append('<div class="selectkit-display" id="lnkSelectKit-display"><span>' + this.settings.placeholder + '</span><i class="selectkit-caret"></i></div>');
         this.$display = this.$container.find('.selectkit-display');
         this.$text = this.$display.find('span');
 
