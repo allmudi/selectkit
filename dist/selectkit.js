@@ -257,7 +257,7 @@
 
         this.$choices = this.renderList();
         if(this.settings.submit) {
-            this.$dropdown.append('<div class="selectkit-submit"><a class="button selectkit-refresh"><span class="icon-close"></span>'+this.settings.submitplaceholder+'</a></div>');
+            this.$dropdown.append('<div class="selectkit-submit"><a class="button selectkit-refresh"><span class="icon-check"></span>'+this.settings.submitplaceholder+'</a></div>');
         }
         this.setText();
     };
